@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#about{
+    /* background-image: url("/back.jpg"); */
+    background-color: #f1f1f1 ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
