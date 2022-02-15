@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/jawhar-nabi",
   },
   {
     title: "React Tracks",
@@ -13,7 +13,7 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/jawhar-nabi",
   },
   {
     title: "DevChat",
@@ -21,7 +21,7 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/jawhar-nabi",
   },
   {
     title: "Epic Todo App",
@@ -29,24 +29,24 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/jawhar-nabi",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+      "un brillant profile avec un très bon reflex d'ingenieur",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+    name: "Houssem Chtioui",
+    company: "ISSAT SOUSSE",
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+      "esprit d'équipe de très haute qualité, autonome et capable de s'intégrer facilement.",
     image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+    name: "Mehdi Belhaj Ali",
+    company: "CodeHub",
   },
 ];
 
