@@ -1,7 +1,8 @@
 {
-  "name": "my-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jawhar-nabi.github.io/portfolio/",
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@headlessui/react": "^1.4.3",
