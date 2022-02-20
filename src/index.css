@@ -3,8 +3,18 @@
 @tailwind utilities;
 
 #about{
-    /* background-image: url("/back.jpg"); */
+    background-image: url("/pic.jpg"); 
     background-color: #f1f1f1 ;
     background-size: cover;
     background-repeat: no-repeat;
+    padding : 10% 0%;
+    background-position-y: center;
+}
+
+/* #banner{
+    background-color: aqua;
+} */
+
+.base-text{
+    text-shadow: 1px 1px 10px #fff;
 }
