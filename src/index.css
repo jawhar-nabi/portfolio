@@ -33,17 +33,18 @@
 
  .loader:empty {
     position: absolute;
-    top: calc(50% - 4em);
-    left: calc(50% - 4em);
-    width: 6em;
-    height: 6em;
-    border: 1.1em solid rgba(0, 0, 0, 0.2);
+    top: calc(50% );
+    left: calc(50% );
+    width: 20px;
+    height: 20px;
+    background-color: firebrick;
+    /* border: 1.1em solid rgba(0, 0, 0, 0.3); */
     /* border-left: 1.1em solid #0d002b; */
-    border-radius: 2%;
-    animation: load8 2s infinite linear;
+    border-radius: 50%;
+    animation: load8 3s infinite forwards;
   }
   
-  @keyframes load8 {
+  /* @keyframes load8 {
     0% {
       transform: rotate(0deg) scale(1);
     }
@@ -53,6 +54,24 @@
     100% {
       transform: rotate(180deg) scale(1);
     }
+  } */
+
+  @keyframes load8 {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  25% {
+    transform: translateX(-50px) scale(0.3);
+  }
+  50% {
+    transform: translateX(0) scale(1);
+  }
+  75% {    
+    transform: translateX(50px) scale(0.3); 
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
   }
   /* html, body {
     height: 100%;
