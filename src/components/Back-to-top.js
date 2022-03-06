@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
+import {FaArrowCircleUp} from 'react-icons/fa';
 
 export default function ScrollToTop() {
-  const [isVisible, setIsVisible] = useState(false);
+  const [visible, setIsVisible] = useState(false);
 
   // Show button when page is scorlled upto given distance
   const toggleVisibility = () => {
@@ -25,12 +26,20 @@ export default function ScrollToTop() {
     window.addEventListener("scroll", toggleVisibility);
   }, []);
 
+  // return (
+  //   <div className="scroll-to-top">
+  //     {isVisible && 
+  //       <div onClick={scrollToTop}>
+  //         {/* <i className="fas fa-chevron-up"/> */}
+  //         <img src='https://i.postimg.cc/44Ytsk8Z/top-arrow-emoj.png' alt='Go to top'/>
+  //       </div>}
+  //   </div>
+  // );
   return (
-    <div className="scroll-to-top">
-      {isVisible && 
-        <div onClick={scrollToTop}>
-          <img src='https://i.postimg.cc/44Ytsk8Z/top-arrow-emoj.png' alt='Go to top'/>
-        </div>}
-    </div>
+    <button className="back-to-top-btn">
+     <FaArrowCircleUp onClick={scrollToTop} 
+     style={{display: visible ? 'inline' : 'none'}} />
+    </button>
   );
+
 }

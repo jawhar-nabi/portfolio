@@ -18,3 +18,16 @@
 .base-text{
     text-shadow: 1px 1px 10px #fff;
 }
+
+.back-to-top-btn{
+    position: fixed; 
+    width: 100%;
+    left: 46%;
+    bottom: 60px;
+    height: 20px;
+    font-size: 3rem;
+    z-index: 1;
+    cursor: pointer;
+    color: gray;
+ }
+
