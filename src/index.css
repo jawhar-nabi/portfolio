@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #about{
-    background-image: url("/compressed.jpg"); 
+    background-image: url("./compressed.jpg"); 
     background-color: #f1f1f1 ;
     background-size: cover;
     background-repeat: no-repeat;
