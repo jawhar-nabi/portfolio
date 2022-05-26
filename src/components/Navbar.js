@@ -18,7 +18,7 @@ export default function Navbar() {
                     smooth={true}
                     offset={-70}
                     duration={500} className="ml-3 text-xl">
-                    Mohamed Jawhar Nabi
+                    Mohamed Jawhar NABI
                   </Link>
                 </a>
               </div>
